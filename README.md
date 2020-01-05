@@ -4,13 +4,14 @@
 ## 项目目标
 使用pyecharts及plotly完成两份交互可视化交互图形界面（至少包涵一份地图）
 * Github代码URL：[点此查看代码](https://github.com/Yaolingxin/Python_data)
-* Pythonanywhere：[点此进入](Yaolingxin.pythonanywhere.com)
+* Pythonanywhere：[点此进入](http://yaolingxin959.pythonanywhere.com/)
+                 [其他的URL](http://yaolingxin959.pythonanywhere.com/qw)
 ## 一共有5份数据5份图表。
-* [1933-2018年温度变化差值](超链接地址 "超链接title")
-* [中国经济发展与温室气体排放](超链接地址 "超链接title")
-* [2012全球oc气体排放量分布](超链接地址 "超链接title")
-* [2012全球排放的温室气体占比](超链接地址 "超链接title")
-* [2012各行业占生产发展的CO2排放比](超链接地址 "超链接title")
+* [1933-2018年温度变化差值]
+* [中国经济发展与温室气体排放]
+* [2012全球oc气体排放量分布]
+* [2012全球排放的温室气体占比]
+* [2012各行业占生产发展的CO2排放比]
 ## 说明
 ### 技术文档书写
 * HTML档：实现了下拉框对于不同表格的选择，实现了地图的放大缩小的功能，鼠标浮动到对应的地点时可以显示该地区排放量并高亮放大。
