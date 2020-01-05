@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>可视化故事</title>
+</head>
+<body style="background-color: #F5FFFA">
+<div><h1>全球变暖&经济发展-可视化故事</h1></div>
+<table style="hight: 5xp"><h4>点击此处切换可视化交互图</h4>
+<tr><td><form method="POST" action="/qw">
+    <select name="the_region_selected">
+        {% for item in the_select_region %}
+            <option value="{{ item }}">{{ item }}</option>
+        {% endfor %}
+    </select></td>
+<td><p><input value='切换' type='SUBMIT'></p></tr></table>
+</form>
+<h3>可视化交互图</h3>
+{{ the_plot_all|safe }}
+<h3>数据表单</h3>
+{{ the_res|safe }}
+
+
+
+</body>
+</html>
